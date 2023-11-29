@@ -13,7 +13,7 @@ class ZarAtmaOyunu:
         self.zar_etiket = Label(self.master, image=self.zar_resmi)
         self.zar_etiket.pack(pady=20)
 
-        # Zar atma düğmesi
+       
         self.zar_atma_dugme = Button(self.master, text="Zar At", command=self.zar_at)
         self.zar_atma_dugme.pack()
 
