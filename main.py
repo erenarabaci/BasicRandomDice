@@ -8,8 +8,8 @@ class ZarAtmaOyunu:
         self.master = master
         self.master.title("Zar Atma Oyunu")
 
-        
-        self.zar_resmi = ImageTk.PhotoImage(Image.open("zar_resmi.png"))  #
+    
+        self.zar_resmi = ImageTk.PhotoImage(Image.open("zar_resmi.png"))  
         self.zar_etiket = Label(self.master, image=self.zar_resmi)
         self.zar_etiket.pack(pady=20)
 
